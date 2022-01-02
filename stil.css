@@ -1,0 +1,230 @@
+body{
+    background-color: #1B1D28;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+*{
+    box-sizing: border-box;
+}
+button {
+    border-radius: 5px;
+    border: 0;
+}
+button a {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #E5E5E5;
+    text-decoration: none;
+}
+h2{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30px;
+}
+/* 1.sayfa start */
+.content{
+    position: absolute;
+    width: 310px;
+    background: #222533;
+    border-radius: 10px;
+    padding: 30px;
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+.resim img{
+    border-radius: 100%;
+    align-items: center;
+}
+.listHeader{
+    font-size: 18px;
+    line-height: 21px;
+    color: #DADADA;
+    padding-left:  15px ;
+}
+.listHeader .user-name{
+    font-size: 16px;
+    line-height: 19px;
+    color: #7D8193;
+}
+.content button {
+    background: #1A1C29;
+    margin-bottom: 30px;
+    width: 250px;
+    height: 53px;
+}
+.menu li{
+    display: block;
+    padding: 20px 0 20px 0;
+}
+.menu li a {
+    color: #E5E5E5;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 19px;
+}
+.menu li a i {
+    margin-right: 10px;
+}
+.menu li:last-child{
+    padding-bottom: 0;
+}
+/* 1. sayfa finish */
+
+/* 2.sayfa start */
+.ust-content{
+    position: absolute;
+    width: 432px;
+    background: #222533;
+    border-radius: 10px;
+    padding: 45px 40px ;
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+}
+.ust-content .title h2{
+    color: #E5E5E5;
+    margin-bottom: 25px;
+}
+.ust-profile{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.ust-resim img{
+    border-radius: 100%;
+    align-items: center;
+}
+.ust-listHeader{
+    padding-left:  25px ;
+}
+.ust-content .ust-listHeader button {
+    background: #1A1C29;
+    width: 197px;
+    height: 53px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #E5E5E5;
+}
+.ust-content .ust-listHeader button i {
+    margin-right: 5px;
+}
+.ust-content .form-element input{
+    background: #1B1D28;
+    border: 2px solid #34394E;
+    box-sizing: border-box;
+    border-radius: 3px;
+    width: 352px;
+    height: 67px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #7D8193;
+    padding-left: 30px;
+    margin-bottom: 41px;
+}
+.toggle{
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+}
+.toggle input{
+    position:absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.slider{
+    position: relative;
+    display: block;
+    cursor: pointer;
+    background-color: #333;
+    transition: 0.4s;
+    width: 50px;
+    height: 16px;
+    margin-bottom: 24px;
+    border: 2px solid #34394E;
+}
+.slider:before{
+    content: "";
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    background-color: #7D8193;
+    transition: 0.4s;
+    top: -7px;
+    left:-1px;
+}
+input:checked + .slider {
+    background-color: #fd5d00;
+}
+input:checked + .slider:before {
+    transform: translateX(22px);
+}
+.slider.round{
+    border-radius: 60px;
+}
+.slider.slider.round::before {
+    border-radius: 60px;
+}
+.toggle .yazi {
+    font-size: 16px;
+    padding-left: 15px;
+}
+.ust-text p{
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 35px;
+}
+.ust-text button {
+    width: 357px;
+    height: 53px;
+    background: #7132C1;
+}
+/* 2. sayfa finish */
+
+/* 3. sayfa start */
+.alt-content {
+    width: 562px;
+    height: 274px;
+    background: #222533;
+    border-radius: 10px;
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+    padding:30px 0 50px 80px;
+}
+.alt-content .alt-title{
+    margin-bottom: 30px;
+}
+.alt-content i {
+    float: right;
+    opacity: 0.5;
+    color: #E5E5E5;
+    padding-right: 30px;
+    font-size: 25px;
+}
+.alt-content .alt-text h2{
+    margin-bottom: 20px;
+}
+.alt-content .alt-text p {
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 40px;
+}
+footer button {
+    width: 162px;
+    height: 53px;
+    background: #7132C1;
+}
+
+/* 3. sayfa finish */
