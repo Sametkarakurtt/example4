@@ -1,0 +1,16 @@
+button {
+    border-radius: 5px;
+    border: 0;
+    font-size: 16px;
+    line-height: 19px;
+    color: #E5E5E5;
+}
+h2{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30px;
+}
+.resim img{
+    border-radius: 100%;
+    align-items: center;
+}

@@ -8,22 +8,6 @@ body{
 *{
     box-sizing: border-box;
 }
-button {
-    border-radius: 5px;
-    border: 0;
-}
-button a {
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    color: #E5E5E5;
-    text-decoration: none;
-}
-h2{
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 30px;
-}
 /* 1.sayfa start */
 .content{
     position: absolute;
@@ -39,11 +23,6 @@ h2{
     display: flex;
     align-items: center;
     margin-bottom: 30px;
-
-}
-.resim img{
-    border-radius: 100%;
-    align-items: center;
 }
 .listHeader{
     font-size: 18px;
@@ -100,10 +79,6 @@ h2{
     align-items: center;
     margin-bottom: 40px;
 }
-.ust-resim img{
-    border-radius: 100%;
-    align-items: center;
-}
 .ust-listHeader{
     padding-left:  25px ;
 }
@@ -111,9 +86,6 @@ h2{
     background: #1A1C29;
     width: 197px;
     height: 53px;
-    font-size: 16px;
-    line-height: 19px;
-    color: #E5E5E5;
 }
 .ust-content .ust-listHeader button i {
     margin-right: 5px;
@@ -203,7 +175,7 @@ input:checked + .slider:before {
     margin-top: 50px;
     padding:30px 0 50px 80px;
 }
-.alt-content .alt-title{
+.alt-content .alt-icon{
     margin-bottom: 30px;
 }
 .alt-content i {
@@ -226,5 +198,5 @@ footer button {
     height: 53px;
     background: #7132C1;
 }
-
 /* 3. sayfa finish */
+ 
