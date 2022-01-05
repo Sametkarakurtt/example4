@@ -73,20 +73,20 @@ body{
 .ust-content .title h2{
     color: #E5E5E5;
     margin-bottom: 25px;
-    text-align: center;
 }
 .ust-profile{
-    display: flex;
-    align-items: center;
-    margin-bottom: 40px;
-    flex-direction: column;
+    flex-direction: row;
 }
 .ust-content .resim {
-    margin-bottom: 25px;
+    margin-bottom: 0;
+}
+.ust-listHeader{
+    padding-left:  25px ;
 }
 .ust-content .ust-listHeader button {
     background: #1A1C29;
-    padding: 16px 24px;   
+    padding: 16px 37px;
+    
 }
 .ust-content .ust-listHeader button i {
     margin-right: 5px;
@@ -96,8 +96,7 @@ body{
     border: 2px solid #34394E;
     box-sizing: border-box;
     border-radius: 3px;
-    width: 100%;
-    max-width: 352px;
+    width: 352px;
     height: 67px;
     font-size: 16px;
     line-height: 19px;
@@ -160,21 +159,22 @@ input:checked + .slider:before {
     margin-bottom: 35px;
 }
 .ust-text button {
+    width: 357px;
+    height: 53px;
     background: #7132C1;
-    padding: 16px 0;
-    width: 100%;
 }
 /* 2. sayfa finish */
 
 /* 3. sayfa start */
 .alt-content {
+    width: 562px;
+    height: 274px;
     background: #222533;
     border-radius: 10px;
     position: relative;
     margin: auto;
     margin-top: 50px;
     padding:30px 0 50px 80px;
-    max-width: 562px;
 }
 .alt-content .alt-icon{
     margin-bottom: 30px;

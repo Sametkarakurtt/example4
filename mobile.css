@@ -81,7 +81,7 @@ body{
     margin-bottom: 40px;
     flex-direction: column;
 }
-.ust-content .resim {
+.ust-content .resim img {
     margin-bottom: 25px;
 }
 .ust-content .ust-listHeader button {
@@ -168,13 +168,14 @@ input:checked + .slider:before {
 
 /* 3. sayfa start */
 .alt-content {
+    width: 562px;
+    height: 274px;
     background: #222533;
     border-radius: 10px;
     position: relative;
     margin: auto;
     margin-top: 50px;
     padding:30px 0 50px 80px;
-    max-width: 562px;
 }
 .alt-content .alt-icon{
     margin-bottom: 30px;
